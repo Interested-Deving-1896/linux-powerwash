@@ -197,13 +197,16 @@ Note: This repository is a mirror. Please refer to the upstream source for addit
 ## Origins
 
 <!-- AI:start:origins -->
-_Original project — no upstream fork._
+
+Original project — distro-agnostic, filesystem-agnostic factory reset tool for Linux.
 <!-- AI:end:origins -->
 
 ## Resources
 
 <!-- AI:start:resources -->
-_No additional resource files found._
+| File | Description |
+|---|---|
+| [dep-graph/origins.md](https://github.com/Interested-Deving-1896/linux-powerwash/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
 <!-- AI:end:resources -->
 
 ## License
