@@ -197,8 +197,7 @@ Note: This repository is a mirror. Please refer to the upstream source for addit
 ## Origins
 
 <!-- AI:start:origins -->
-
-Original project — distro-agnostic, filesystem-agnostic factory reset tool for Linux.
+_Original project — no upstream fork._
 <!-- AI:end:origins -->
 
 ## Resources
