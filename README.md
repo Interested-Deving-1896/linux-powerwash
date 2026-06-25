@@ -204,9 +204,7 @@ Original project — distro-agnostic, filesystem-agnostic factory reset tool for
 ## Resources
 
 <!-- AI:start:resources -->
-| File | Description |
-|---|---|
-| [dep-graph/origins.md](https://github.com/Interested-Deving-1896/linux-powerwash/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
+_No additional resource files found._
 <!-- AI:end:resources -->
 
 ## License
