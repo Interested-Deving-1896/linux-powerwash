@@ -1,7 +1,8 @@
 [update-readmes]   Mode: rewrite — migrating to template structure...
 # linux-powerwash
 
-[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/linux-powerwash)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/linux-powerwash) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Flinux-powerwash&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
+
 
 <!-- AI:start:what-it-does -->
 This project provides a distro-agnostic and filesystem-agnostic tool for performing factory resets on Linux systems. It supports multiple reset modes, such as soft, medium, and hard resets, and includes plugins for handling specific distributions, filesystems, and hardware configurations. System administrators and developers use it to restore Linux environments to a clean state while preserving flexibility across different setups.
@@ -159,15 +160,15 @@ sudo powerwash menu
 <!-- AI:start:ci -->
 The repository uses GitHub Actions for continuous integration. The following workflows are defined:
 
-1. **`mirror-osp-to-ooc.yaml`**  
-   - Syncs the repository to an external mirror.  
-   - Trigger: Push events to the default branch.  
+1. **`mirror-osp-to-ooc.yaml`**
+   - Syncs the repository to an external mirror.
+   - Trigger: Push events to the default branch.
    - Required secrets: `MIRROR_REPO_URL`, `MIRROR_REPO_TOKEN`.
 
-2. **`trigger-artifact-mirror.yml`**  
-   - Triggers artifact mirroring to external storage.  
-   - Trigger: Successful completion of the `mirror-osp-to-ooc.yaml` workflow.  
-   - Required secrets: `ARTIFACT_STORAGE_URL`, `ARTIFACT_STORAGE_TOKEN`.  
+2. **`trigger-artifact-mirror.yml`**
+   - Triggers artifact mirroring to external storage.
+   - Trigger: Successful completion of the `mirror-osp-to-ooc.yaml` workflow.
+   - Required secrets: `ARTIFACT_STORAGE_URL`, `ARTIFACT_STORAGE_TOKEN`.
 
 Both workflows ensure repository synchronization and artifact availability.
 <!-- AI:end:ci -->
@@ -208,6 +209,20 @@ Original project — distro-agnostic, filesystem-agnostic factory reset tool for
 |---|---|
 | [dep-graph/origins.md](https://github.com/Interested-Deving-1896/linux-powerwash/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
 <!-- AI:end:resources -->
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/linux-powerwash/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/linux-powerwash/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
 
 ## License
 
